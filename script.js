@@ -23,10 +23,14 @@ class Teacher extends Person {
 		console.log(`${this.name} is teaching`)
 	}
 }
-const student = new Student("John", 20);
-const teacher = new Teacher("Jane", 35);
+const person = new Person("John", 25)
+const student = new Student("John", 30);
+const teacher = new Teacher("Jane", 30);
 
+console.log(person.name); 
 console.log(student.name); 
+console.log(teacher.name); 
+
 student.age = 21;
 console.log(student.age);
 
